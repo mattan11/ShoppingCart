@@ -13,8 +13,8 @@ function App() {
             <Container className="mb-4">
                 <Routes>
                     <Route path="/ShoppingCart" element={<Home />} />
-                    <Route path="/ShoppingCar/store" element={<Store />} />
-                    <Route path="/ShoppingCar/about" element={<About />} />
+                    <Route path="/ShoppingCart/store" element={<Store />} />
+                    <Route path="/ShoppingCart/about" element={<About />} />
                 </Routes>
             </Container>
         </ShoppingCartProvider>
