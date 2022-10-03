@@ -17,6 +17,7 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
             <Offcanvas.Body>
                 <Stack gap={3}>
                     {cartItems.map((item) => (
+                        // @ts-ignore
                         <CartItem key={item.id} {...item} />
                     ))}
                     <div className="ms-auto fw-bold fs-5">
