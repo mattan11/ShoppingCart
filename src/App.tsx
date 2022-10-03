@@ -12,9 +12,9 @@ function App() {
             <Navbar></Navbar>
             <Container className="mb-4">
                 <Routes>
-                    <Route path="/ShoppingCart" element={<Home />} />
-                    <Route path="/ShoppingCart/store" element={<Store />} />
-                    <Route path="/ShoppingCart/about" element={<About />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/store" element={<Store />} />
+                    <Route path="/about" element={<About />} />
                 </Routes>
             </Container>
         </ShoppingCartProvider>
